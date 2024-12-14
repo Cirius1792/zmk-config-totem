@@ -13,7 +13,6 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
 
 #define BASE 0
@@ -47,7 +46,7 @@
         };
 
         enter {
-            bindings = <&kt ENTER>;
+            bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
         };
     };
@@ -91,10 +90,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &kp Q  &kp W           &kp E               &kp R             &kp T        &kp Y      &kp U          &kp I         &kp O       &kp P
-         &kp A  &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT G  &kp F        &kp H      &mt RSHFT J    &mt RCTRL K   &mt RALT L  &mt RGUI O
-&kp ESC  &kp Z  &kp X           &kp C               &kp V             &kp B        &kp N      &kp M          &kp COMMA     &kp DOT     &kp FSLH    &kp BSLH
-                                &mt LEFT_WIN DEL    &lt NAV TAB       &kp SPACE    &kp SPACE  &lt SYM ENTER  &lt 3 DELETE
+                  &kp Q  &kp W  &kp E                      &kp R             &kp T        &kp Y      &kp U          &kp I            &kp O       &kp P
+                  &kp A  &kp S  &mt LEFT_CONTROL D         &mt LEFT_SHIFT G  &kp F        &kp H      &mt RSHFT J    &mt RCTRL K      &mt RALT L  &mt RGUI O
+&mt LEFT_WIN TAB  &kp Z  &kp X  &kp C                      &kp V             &kp B        &kp N      &kp M          &kp COMMA        &kp DOT     &kp FSLH    &kp BACKSPACE
+                                &mt LEFT_WIN LEFT_CONTROL  &lt NAV LEFT_ALT  &kp SPACE    &kp SPACE  &lt SYM ENTER  &lt 3 BACKSPACE
             >;
         };
 
