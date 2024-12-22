@@ -2,8 +2,6 @@ manifest:
   remotes:
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: zmk_locale
-      url-base: https://github.com/joelspadin/zmk-locales
   projects:
     - name: zmk
       remote: zmkfirmware
