@@ -176,10 +176,10 @@
             //                                     ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛   ┗━━━━━━━━━━━┻━━━━━━━━━━━┻━━━━━━━━━━━┛
 
             bindings = <
-         &trans     &trans       &ac_egrv               &kp R             &kp T           &kp Y        &ac_ugrv              &ac_igrv        &ac_ogrv       &kp P
-         &ac_agrv  &mt LALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT G  &kp F           &kp H        &mt RSHFT J        &mt RCTRL K  &mt RALT L  &mt RGUI SEMI
-&kp ESC  &kp Z     &kp X       &kp C               &kp V             &kp B           &kp N        &kp M              &kp COMMA    &kp DOT     &kp FSLH       &kp EN_SINGLE_QUOTE
-                               &kp LEFT_CONTROL    &kp TAB           &lt 3 DELETE    &lt 1 SPACE  &lt SYM BACKSPACE  &none
+        &trans    &trans  &ac_egrv  &trans  &trans    &trans  &ac_ugrv  &ac_igrv  &ac_ogrv  &trans
+        &ac_agrv  &trans  &trans    &trans  &trans    &trans  &trans    &trans    &trans    &trans
+&trans  &trans    &trans  &trans    &trans  &trans    &trans  &trans    &trans    &trans    &trans  &trans
+                          &trans    &trans  &trans    &trans  &trans    &none
             >;
         };
 
