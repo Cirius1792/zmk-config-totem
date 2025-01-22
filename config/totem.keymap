@@ -74,7 +74,7 @@
 
         combo_esc {
             timeout-ms = <50>;
-            key-positions = <0 1>;
+            key-positions = <1 2>;
             bindings = <&kp ESC>;
         };
 
@@ -91,12 +91,12 @@
 
         Backspace {
             bindings = <&kp BACKSPACE>;
-            key-positions = <5 6>;
+            key-positions = <6 7>;
         };
 
         Delete {
             bindings = <&kp DELETE>;
-            key-positions = <8 9>;
+            key-positions = <8 7>;
         };
     };
 
