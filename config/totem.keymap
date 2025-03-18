@@ -78,12 +78,6 @@
             bindings = <&kp ESC>;
         };
 
-        combo_tvp {
-            timeout-ms = <100>;
-            key-positions = <11 12 13>;
-            bindings = <&tog 3>;
-        };
-
         enter {
             bindings = <&kp ENTER>;
             key-positions = <16 17 18>;
