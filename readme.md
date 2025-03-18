@@ -13,7 +13,7 @@
 ## References 
 
 ### Case
-The base is awesome [VOID Redux](https://www.printables.com/model/840146-totem-redux) with a modified cover to remove the screw holes from the top. 
+The base is the awesome [VOID Redux](https://www.printables.com/model/840146-totem-redux) with a modified cover to remove the screw holes from the top. 
 The Step files of the modified pieces are:
 - [left](/case/top-left.step)
 - [right](/case/top-right.step)
